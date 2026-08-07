@@ -24,6 +24,7 @@ hr_contract module was merged into core hr.
     'author': 'Lumint House',
     'website': '',
     'license': 'OPL-1',
+    'support': 'ajaofavour123@gmail.com',
     'depends': ['hr'],
     'data': [
         'security/ir.model.access.csv',
