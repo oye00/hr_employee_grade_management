@@ -1,5 +1,5 @@
 {
-    'name': 'Grade Management',
+    'name': 'Employee Grade Management',
     'version': '19.0.1.0.0',
     'summary': 'Define employee grade levels, attach flexible allowances, and assign employees to grades.',
     'description': """
