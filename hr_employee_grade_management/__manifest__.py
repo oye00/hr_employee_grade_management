@@ -25,6 +25,7 @@ hr_contract module was merged into core hr.
     'website': '',
     'license': 'OPL-1',
     'support': 'ajaofavour123@gmail.com',
+    'images': ['static/description/banner.png'],
     'depends': ['hr'],
     'data': [
         'security/ir.model.access.csv',
