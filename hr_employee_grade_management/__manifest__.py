@@ -17,10 +17,12 @@ This module manages the grade and allowance *structure* only — it does not
 compute payslips. Pair it with Odoo Payroll or your own payroll module,
 which can reference grade_id, current_grade_id, and the allowance lines.
 """,
-    'category': 'Human Resources',
-    'author': 'Your Company',
+   'category': 'Human Resources',
+    'author': 'Lumint House',
     'website': '',
     'license': 'OPL-1',
+    'support': 'ajaofavour123@gmail.com',
+    'images': ['static/description/banner2.png'],
     'depends': ['hr', 'hr_contract'],
     'data': [
         'security/ir.model.access.csv',
