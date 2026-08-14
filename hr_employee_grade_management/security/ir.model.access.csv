@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_grade_level_user,grade.level.user,model_grade_level,base.group_user,1,0,0,0
+access_grade_level_hr_manager,grade.level.hr_manager,model_grade_level,hr.group_hr_manager,1,1,1,1
+access_grade_allowance_type_user,grade.allowance.type.user,model_grade_allowance_type,base.group_user,1,0,0,0
+access_grade_allowance_type_hr_manager,grade.allowance.type.hr_manager,model_grade_allowance_type,hr.group_hr_manager,1,1,1,1
+access_grade_allowance_line_user,grade.allowance.line.user,model_grade_allowance_line,base.group_user,1,0,0,0
+access_grade_allowance_line_hr_manager,grade.allowance.line.hr_manager,model_grade_allowance_line,hr.group_hr_manager,1,1,1,1
+access_grade_history_user,grade.history.user,model_grade_history,base.group_user,1,0,0,0
+access_grade_history_hr_manager,grade.history.hr_manager,model_grade_history,hr.group_hr_manager,1,1,1,1

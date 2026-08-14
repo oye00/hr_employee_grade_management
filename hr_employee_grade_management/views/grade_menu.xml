@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- TOP LEVEL MENU (SIBLING OF Employees / Departments / Reporting) -->
+    <menuitem id="menu_grade_root"
+              name="Grade Management"
+              parent="hr.menu_hr_root"
+              sequence="99"/>
+
+    <!-- CHILD MENUS -->
+    <menuitem id="menu_grade_level"
+              name="Grade Levels"
+              parent="menu_grade_root"
+              action="action_grade_level"
+              sequence="10"/>
+
+    <menuitem id="menu_grade_allowance_type"
+              name="Allowance Types"
+              parent="menu_grade_root"
+              action="action_grade_allowance_type"
+              sequence="20"/>
+
+    <menuitem id="menu_grade_history"
+              name="Grade History"
+              parent="menu_grade_root"
+              action="action_grade_history"
+              sequence="30"/>
+
+</odoo>
